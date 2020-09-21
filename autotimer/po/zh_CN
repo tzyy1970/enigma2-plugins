@@ -1,583 +1,810 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: enigma2-plugins 3.2.0\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-03 04:58+0200\n"
-"PO-Revision-Date: 2020-08-29 16:16+0800\n"
+"POT-Creation-Date: 2017-05-28 22:28+0200\n"
+"PO-Revision-Date: 2020-09-21 11:36+0800\n"
 "Last-Translator: 孤独之剑 <haotzyy1970@163.com>\n"
-"Language-Team: none\n"
+"Language-Team: 孤独之剑 <haotzyy1970@163.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.1\n"
 
-msgid "  Any time"
-msgstr "  任何时间"
+#: ../src/__init__.py:75
+msgid "If specified services"
+msgstr "如果指定服务"
+
+#: ../src/__init__.py:76
+msgid "If specified bouquets"
+msgstr "如果指定自定义组"
+
+#: ../src/__init__.py:77
+msgid "If specified services or bouquets"
+msgstr "如果指定服务或分组"
 
 msgid " (if services are enabled, bouquets are ignored.)."
 msgstr " (如果启用服务,分组将被忽略.)."
 
+#: ../src/AutoTimerList.py:148
+msgid "[S]  "
+msgstr "[S] "
+
+#: ../src/AutoTimerList.py:151
+msgid "[B]  "
+msgstr "[B] "
+
+#: ../src/AutoTimerList.py:170
+msgid "  Any time"
+msgstr " 任何时间"
+
+#: ../src/AutoPoller.py:41 ../src/AutoTimer.py:703
+#, python-format
 msgid ""
 "%d conflict(s) encountered when trying to add new timers:\n"
 "%s"
 msgstr ""
-"%d 试图添加新的计时器时,会遇到冲突:\n"
+"尝试添加新定时器时遇到%d个冲突:\n"
 "%s"
 
+#: ../src/AutoPoller.py:49 ../src/AutoTimer.py:710
+#, python-format
 msgid ""
 "%d conflict(s) solved with similar timer(s):\n"
 "%s"
 msgstr ""
-"%d类似计时器（的）解决冲突：\n"
+"用类似的定时器(s)解决%d冲突(s):\n"
 "%s"
 
+#: ../src/AutoTimerEditor.py:232 ../src/AutoTimerEditor.py:233 ../src/AutoTimerEditor.py:227 ../src/AutoTimerEditor.py:228
 msgid "%d.%B %Y"
 msgstr "%d.%B %Y"
 
+#: ../src/AutoPoller.py:41 ../src/AutoPoller.py:49 ../src/AutoTimer.py:703 ../src/AutoTimer.py:710
+#, python-format
 msgid "%s: %s at %s"
-msgstr "%s: %s at %s"
+msgstr "%s: %s 在 %s"
 
+#: ../src/autotimerwizard.xml
 msgid "Abort this Wizard."
-msgstr "中止这个向导."
+msgstr "中止此向导."
 
+#: ../src/AutoTimerEditor.py:622 ../src/AutoTimerEditor.py:666
 msgid "Activate VPS"
-msgstr "激活VPS"
+msgstr "激活 VPS"
 
+#: ../src/AutoTimerOverview.py:73 ../src/AutoTimerOverview.py:88
 msgid "Add"
 msgstr "添加"
 
 msgid "Add AutoTimer"
 msgstr "添加自动计时器"
 
+#: ../src/AutoTimerEditor.py:490
 msgid "Add filters"
-msgstr "添加过滤器"
+msgstr "添加筛选器"
 
+#: ../src/AutoTimerOverview.py:101 ../src/AutoTimerOverview.py:116
 msgid "Add new AutoTimer"
-msgstr "添加新的自动计时器"
+msgstr "添加新的自动定时器"
 
+#: ../src/AutoTimerEditor.py:505
 msgid "Add services"
 msgstr "添加服务"
 
+#: ../src/AutoTimerSettings.py:45 ../src/AutoTimerSettings.py:72 ../src/AutoTimerSettings.py:55
 msgid "Add similar timer on conflict"
-msgstr "在冲突中添加类似计时器"
+msgstr "在冲突中添加类似定时器"
 
+#: ../src/AutoTimerSettings.py:46 ../src/AutoTimerSettings.py:73 ../src/AutoTimerSettings.py:56
 msgid "Add timer as disabled on conflict"
-msgstr "在冲突中添加计时器"
+msgstr "在冲突中添加定时器"
 
+#: ../src/AutoTimerEditor.py:506
 msgid "Add zap timer instead of record timer?"
-msgstr "添加活力而不是记录定时器定时器？"
+msgstr "添加定时切换而不是定时录制？"
 
+#: ../src/AutoTimerEditor.py:588 ../src/AutoTimerImporter.py:182 ../src/AutoTimerEditor.py:632 ../src/AutoTimerImporter.py:198
 msgid "After event"
 msgstr "事件后"
 
+#: ../src/AutoTimerList.py:147
+msgid "All channels"
+msgstr "所有频道"
+
+#: ../src/plugin.py:22
 msgid "All non-repeating timers"
 msgstr "所有非重复定时器"
 
+#: ../src/AutoTimerSettings.py:84 ../src/AutoTimerSettings.py:67
+msgid "Always write config"
+msgstr "始终写入配置"
+
+#: ../src/AutoTimerEditor.py:606 ../src/AutoTimerEditor.py:650
 msgid "Amount of recordings left"
-msgstr "留下的录音量"
+msgstr "剩余录音量"
 
+#: ../src/AutoTimerEditor.py:319 ../src/AutoTimerEditor.py:314
 msgid "Any service/recording"
-msgstr "任何服务/录音"
+msgstr "任何服务/录制"
 
+#: ../src/plugin.py:204
 msgid "Auto Timer"
 msgstr "自动定时器"
 
+#: ../src/plugin.py:193
 msgid "Auto Timers"
 msgstr "自动定时器"
 
+#: ../src/AutoTimer.py:280
 msgid "AutoTimer"
-msgstr "自动计时器"
+msgstr "自动定时器"
 
+#: ../src/AutoTimerOverview.py:275
 msgid "AutoTimer Context Menu"
 msgstr "自动定时器上下文菜单"
 
+#: ../src/AutoTimerEditor.py:411 ../src/AutoTimerEditor.py:432
 msgid "AutoTimer Editor"
-msgstr "自动计时器编辑"
+msgstr "自动定时器编辑器"
 
+#: ../src/faq.xml:2
 msgid "AutoTimer FAQ"
-msgstr "自动开关的常见问题"
+msgstr "自动定时器常见问题解答"
 
+#: ../src/AutoTimerEditor.py:871 ../src/AutoTimerEditor.py:1064
 msgid "AutoTimer Filters"
-msgstr "自动定时开关器"
+msgstr "自动定时器过滤器"
 
+#: ../src/mphelp.xml:1
 msgid "AutoTimer Help"
-msgstr "自动计时器帮助"
+msgstr "自动定时器帮助"
 
+#: ../src/AutoTimerEditor.py:1075 ../src/AutoTimerEditor.py:1286
 msgid "AutoTimer Services"
-msgstr "自动计时器服务"
+msgstr "自动定时器服务"
 
+#: ../src/AutoTimerSettings.py:33 ../src/AutoTimerSettings.py:51 ../src/AutoTimerSettings.py:97
 msgid "AutoTimer Settings"
 msgstr "自动定时器设置"
 
+#: ../src/AutoTimerOverview.py:116 ../src/AutoTimerOverview.py:132
 msgid "AutoTimer overview"
-msgstr "自动定时开关概述"
+msgstr "自动定时器概述"
 
+#: ../src/AutoTimerResource.py:353 ../src/AutoTimerResource.py:384 ../src/AutoTimerResource.py:386
 msgid "AutoTimer was added successfully"
 msgstr "自动计时器添加成功"
 
+#: ../src/AutoTimerResource.py:355 ../src/AutoTimerResource.py:386 ../src/AutoTimerResource.py:388
 msgid "AutoTimer was changed successfully"
-msgstr "自动计时器已经更改成功"
+msgstr "自动定时器已成功更改"
 
+#: ../src/AutoTimerResource.py:132 ../src/AutoTimerResource.py:154 ../src/AutoTimerResource.py:156
 msgid "AutoTimer was removed"
-msgstr "自动计时器被删除"
+msgstr "自动定时器已被删除"
 
+#: ../src/plugin.py:206
 msgid "AutoTimers"
 msgstr "自动定时器"
 
+#: ../src/AutoTimerEditor.py:597 ../src/AutoTimerEditor.py:641
 msgid "Begin of \"after event\" timespan"
-msgstr "从“事后”的时间跨度"
+msgstr "\"事件后\" 时间跨度起点"
 
+#: ../src/AutoTimerEditor.py:560 ../src/AutoTimerWizard.py:103 ../src/AutoTimerEditor.py:604
 msgid "Begin of timespan"
-msgstr "开始时间"
+msgstr "开始的时间间隔"
 
+#: ../src/AutoTimerEditor.py:1086 ../src/AutoTimerEditor.py:1297
 msgid "Bouquets"
 msgstr "分组"
 
-msgid ""
-"By enabling this events will not be matched if they don't occur on certain "
-"dates."
-msgstr "通过启用此事件将不匹配,如果它们不发生在特定日期."
+#: ../src/AutoTimerEditor.py:512 ../src/AutoTimerEditor.py:551
+msgid "By enabling this events will not be matched if they don't occur on certain dates."
+msgstr "通过启用这些事件,如果它们不在特定日期发生,则不会匹配."
 
-msgid ""
-"By enabling this you will be notified about similar timers added during "
-"automated polling. There is no intelligence involved, so it might bother you "
-"about the same conflict over and over."
-msgstr ""
-"通过启用此您将被通知在自动轮询期间添加类似的计时器.没有涉及情报,所以它可能会"
-"打扰你的相同的冲突."
+#: ../src/AutoTimerSettings.py:48 ../src/AutoTimerSettings.py:77 ../src/AutoTimerSettings.py:60
+msgid "By enabling this you will be notified about similar timers added during automated polling. There is no intelligence involved, so it might bother you about the same conflict over and over."
+msgstr "通过启用这些事件,可以在自动轮询期间通知类似的定时器. 没有涉及情报, 所以它可能会让你反复地谈论同样的冲突."
 
-msgid ""
-"By enabling this you will be notified about timer conflicts found during "
-"automated polling. There is no intelligence involved, so it might bother you "
-"about the same conflict over and over."
-msgstr ""
-"通过启用此您将被通知在自动轮询期间发现的计时器冲突.没有涉及情报,所以它可能会"
-"打扰你的相同的冲突."
+#: ../src/AutoTimerSettings.py:47 ../src/AutoTimerSettings.py:76 ../src/AutoTimerSettings.py:59
+msgid "By enabling this you will be notified about timer conflicts found during automated polling. There is no intelligence involved, so it might bother you about the same conflict over and over."
+msgstr "通过启用此功能,你将收到有关自动轮询期间发现的定时器冲突的通知. 没有涉及情报,所以它可能会让你反复地淡论同样的冲突."
 
+#: ../src/AutoTimerEditor.py:435 ../src/AutoTimerEditor.py:892 ../src/AutoTimerEditor.py:1095 ../src/AutoTimerImporter.py:45 ../src/AutoTimerImporter.py:119 ../src/AutoTimerPreview.py:59
+#: ../src/AutoTimerSettings.py:68 ../src/AutoTimerEditor.py:456 ../src/AutoTimerEditor.py:1089 ../src/AutoTimerEditor.py:1306 ../src/AutoTimerImporter.py:46 ../src/AutoTimerImporter.py:135
+#: ../src/AutoTimerPreview.py:84 ../src/AutoTimerSettings.py:102 ../src/AutoTimerSettings.py:128
 msgid "Cancel"
 msgstr "取消"
 
+#: ../src/AutoTimerEditor.py:515 ../src/AutoTimerEditor.py:554
 msgid "Change default recording offset?"
-msgstr "更改默认记录偏移？"
+msgstr "更改默认录制偏移?"
 
+#: ../src/AutoTimerEditor.py:92 ../src/AutoTimerEditor.py:86
 msgid "Channel Selection"
 msgstr "频道选择"
 
+#: ../src/AutoTimerEditor.py:1085 ../src/AutoTimerEditor.py:1296
 msgid "Channels"
 msgstr "频道"
 
+#: ../src/AutoTimerEditor.py:612 ../src/AutoTimerEditor.py:656
 msgid "Check for uniqueness in"
-msgstr "检查的唯一性"
+msgstr "检查中的唯一性"
 
+#: ../src/AutoTimerSettings.py:83 ../src/AutoTimerSettings.py:66
+msgid "Check the event id (eit) and remove the timer if there is no corresponding EPG event. Due to compatibility issues with SerienRecorder and IPRec, only timer created by AutoTimer are affected."
+msgstr "检查事件ID(eit),如果没有相应的EPG事件,则删除计时器. 由于与Serien记录和IPRec兼容性问题,只能通过自动定时创建的计时器都受到影响."
+
+#: ../src/AutoTimerEditor.py:369 ../src/AutoTimerEditor.py:373
 msgid "Choose target folder"
 msgstr "选择目标文件夹"
 
+#: ../src/plugin.py:27
 msgid "Classic"
-msgstr "经典"
+msgstr "经典模式"
 
+#: ../src/AutoTimerOverview.py:259
 msgid "Clone selected timer"
 msgstr "复制选定的定时器"
 
+#: ../src/AutoTimerOverview.py:85
 msgid "Close"
 msgstr "关闭"
 
+#: ../src/AutoTimerOverview.py:86 ../src/AutoTimerOverview.py:101
 msgid "Close and forget changes"
 msgstr "关闭和忘记变化"
 
+#: ../src/AutoTimerOverview.py:99 ../src/AutoTimerOverview.py:114
 msgid "Close and save changes"
 msgstr "关闭并保存更改"
 
+#: ../src/AutoTimerSettings.py:85 ../src/AutoTimerSettings.py:120 ../src/AutoTimerSettings.py:146
 msgid "Configure AutoTimer behavior"
-msgstr "配置自动开关行为"
+msgstr "配置自动定时器行为"
 
+#: ../src/mphelp.xml:17
 msgid "Congratulations"
-msgstr "恭喜你"
+msgstr "恭喜"
 
+#: ../src/AutoTimerEditor.py:624 ../src/AutoTimerEditor.py:668
 msgid "Control recording completely by service"
-msgstr "完全由服务控制记录"
+msgstr "完全按服务控制录制"
 
+#: ../src/AutoTimerResource.py:139 ../src/AutoTimerResource.py:141
+msgid "Couldn't load config file!"
+msgstr "无法加载配置文件！"
+
+#: ../src/autotimerwizard.xml
 msgid "Create a new AutoTimer."
-msgstr "创建一个新的自动计时器."
+msgstr "创建一个新的自动定时器."
 
+#: ../src/AutoTimerOverview.py:231 ../src/AutoTimerOverview.py:268
 msgid "Create a new timer using the classic editor"
-msgstr "创建一个新的自动计时器"
+msgstr "使用经典编辑器创建新定时器"
 
+#: ../src/AutoTimerOverview.py:233 ../src/AutoTimerOverview.py:270
 msgid "Create a new timer using the wizard"
-msgstr "使用向导创建一个新的计时器"
+msgstr "使用向导创建新定时器"
 
+#: ../src/AutoTimerEditor.py:311 ../src/AutoTimerEditor.py:306
+#, python-format
 msgid "Custom (%s)"
 msgstr "自定义(%s)"
 
+#: ../src/AutoTimerEditor.py:617 ../src/AutoTimerEditor.py:661
 msgid "Custom location"
 msgstr "自定义位置"
 
+#: ../src/AutoTimerEditor.py:573 ../src/AutoTimerEditor.py:617
 msgid "Custom offset"
-msgstr "自定义偏移"
+msgstr "自订偏移"
 
-msgid ""
-"Defines where to search for duplicates (only title, short description or "
-"even extended description)"
-msgstr "定义在搜索重复（只读标题,描述或甚至短扩展描述）"
+#: ../src/AutoTimerEditor.py:528 ../src/AutoTimerEditor.py:567
+msgid "Defines where to search for duplicates (only title, short description or even extended description)"
+msgstr "定义搜索重复项的位置 (仅标题,简短描述或甚至延伸描述)"
 
+#: ../src/AutoTimerOverview.py:72 ../src/AutoTimerEditor.py:1091 ../src/AutoTimerEditor.py:1308 ../src/AutoTimerOverview.py:87
 msgid "Delete"
 msgstr "删除"
 
+#: ../src/AutoTimerEditor.py:540 ../src/AutoTimerWizard.py:111 ../src/AutoTimerEditor.py:584
 msgid "Description"
 msgstr "描述"
 
+#: ../src/AutoTimerOverview.py:189
+#, python-format
+msgid "Do you really want to delete %s?"
+msgstr "是否要删除 %s?"
+
+#: ../src/AutoTimerEditor.py:545 ../src/AutoTimerEditor.py:589
 msgid "EPG encoding"
-msgstr "EPG编码"
+msgstr "EPG 编码"
 
+#: ../src/AutoTimerEditor.py:463 ../src/AutoTimerEditor.py:484
 msgid "Edit AutoTimer"
-msgstr "编辑自动计时器"
+msgstr "编辑自动定时器"
 
+#: ../src/AutoTimerEditor.py:913 ../src/AutoTimerEditor.py:1114
 msgid "Edit AutoTimer filters"
-msgstr "编辑自动定时开关器"
+msgstr "编辑自动定时器过滤器"
 
+#: ../src/AutoTimerEditor.py:1116 ../src/AutoTimerEditor.py:1327
 msgid "Edit AutoTimer services"
-msgstr "编辑自动计时器服务"
+msgstr "编辑自动定时器服务"
 
+#. TRANSLATORS: description of AutoTimer in PluginBrowser
+#: ../src/plugin.py:224 ../src/plugin.py:231 ../src/plugin.py:181 ../src/plugin.py:183 ../src/plugin.py:193
 msgid "Edit Timers and scan for new Events"
-msgstr "编辑定时器和新事件的扫描"
+msgstr "编辑新事件的定时器和扫描"
 
+#: ../src/AutoTimerEditor.py:488
 msgid "Edit filters"
-msgstr "编辑滤波器"
+msgstr "编辑过滤器"
 
+#: ../src/AutoTimerOverview.py:222 ../src/AutoTimerOverview.py:258
 msgid "Edit new timer defaults"
-msgstr "编辑新的定时器默认值"
+msgstr "编辑新定时器默认值"
 
+#: ../src/AutoTimerOverview.py:85 ../src/AutoTimerOverview.py:100
 msgid "Edit selected AutoTimer"
-msgstr "编辑选定的自动计时器"
+msgstr "编辑选定的自动定时器"
 
+#: ../src/AutoTimerEditor.py:503
 msgid "Edit services"
-msgstr "编辑服务"
+msgstr "编辑频道"
 
+#: ../src/AutoTimerEditor.py:1138 ../src/AutoTimerEditor.py:1349
 msgid "Editing"
-msgstr "编辑"
+msgstr "编辑器"
 
+#: ../src/AutoTimerSettings.py:49 ../src/AutoTimerSettings.py:78 ../src/AutoTimerSettings.py:61
 msgid "Editor for new AutoTimers"
 msgstr "新自动计时器的编辑器"
 
+#: ../src/AutoTimerEditor.py:957 ../src/AutoTimerEditor.py:1157
 msgid "Enable Filtering"
 msgstr "启用过滤"
 
+#: ../src/AutoTimerEditor.py:1137 ../src/AutoTimerEditor.py:1348
 msgid "Enable Service Restriction"
-msgstr "启用服务限制"
+msgstr "启动服务限制"
 
-msgid ""
-"Enable this to be able to access the AutoTimer Overview from within the "
-"extension menu."
-msgstr "使这能够从扩展菜单中访问自动计时器概述."
+#: ../src/AutoTimerSettings.py:42 ../src/AutoTimerSettings.py:69 ../src/AutoTimerSettings.py:52
+msgid "Enable this to be able to access the AutoTimer Overview from within the extension menu."
+msgstr "启用此功能可以从扩展菜单中访问自动定时器概述."
 
-msgid ""
-"Enable this to be able to access the AutoTimer Overview from within the "
-"plugin browser."
-msgstr "使本可以在插件的浏览器访问自动计时器概述."
+#: ../src/AutoTimerSettings.py:68 ../src/AutoTimerSettings.py:51
+msgid "Enable this to be able to access the AutoTimer Overview from within the plugin browser."
+msgstr "启用此功能可以访问插件浏览器中的自动定时器概述."
 
+#: ../src/AutoTimerEditor.py:539 ../src/AutoTimerImporter.py:130 ../src/AutoTimerWizard.py:110 ../src/AutoTimerEditor.py:583 ../src/AutoTimerImporter.py:146
 msgid "Enabled"
 msgstr "启用"
 
-msgid ""
-"Encoding the channel uses for it's EPG data. You only need to change this if "
-"you're searching for special characters like the german umlauts."
-msgstr ""
-"编码信道使用的EPG数据.你只需要改变这个如果你正在寻找你的特殊字符,如德国的变"
-"音."
+#: ../src/AutoTimerEditor.py:503 ../src/AutoTimerEditor.py:542
+msgid "Encoding the channel uses for it's EPG data. You only need to change this if you're searching for special characters like the german umlauts."
+msgstr "编码频道用于它的EPG数据..你只需要改变这一点,如果你是在寻找像德国留声机这样的特别包机的话."
 
+#: ../src/AutoTimerEditor.py:598 ../src/AutoTimerEditor.py:642
 msgid "End of \"after event\" timespan"
-msgstr "结束“事后”的时间跨度"
+msgstr "\"事件后\" 时间跨度终点"
 
+#: ../src/AutoTimerEditor.py:561 ../src/AutoTimerWizard.py:104 ../src/AutoTimerEditor.py:605
 msgid "End of timespan"
-msgstr "结束时间"
+msgstr "结束的时间间隔"
 
+#: ../src/AutoTimerList.py:206
+msgid "Everyday"
+msgstr "每天"
+
+#: ../src/AutoTimerImporter.py:146 ../src/AutoTimerImporter.py:162
 msgid "Exact match"
 msgstr "精确匹配"
 
+#: ../src/AutoTimerEditor.py:966 ../src/AutoTimerEditor.py:983 ../src/AutoTimerEditor.py:1008 ../src/AutoTimerEditor.py:1171 ../src/AutoTimerEditor.py:1188 ../src/AutoTimerEditor.py:1213
 msgid "Exclude"
 msgstr "排除"
 
+#: ../src/AutoTimerEditor.py:592 ../src/AutoTimerEditor.py:636
 msgid "Execute \"after event\" during timespan"
-msgstr "在时间跨度内执行”事件后”"
+msgstr "执行 \"事件后\"期间的时间间隔"
 
-msgid "FAQ"
-msgstr "常见问题解答"
-
+#: ../src/AutoTimerEditor.py:958 ../src/AutoTimerEditor.py:1159
 msgid "Filter"
-msgstr "滤波器"
+msgstr "过滤"
 
+#: ../src/autotimerwizard.xml
 msgid ""
-"Filters are another powerful tool when matching events. An AutoTimer can be "
-"restricted to certain Weekdays or only match an event with a text inside eg "
-"it's Description.\n"
+"Filters are another powerful tool when matching events. An AutoTimer can be restricted to certain Weekdays or only match an event with a text inside eg it's Description.\n"
 "Press BLUE to add a new restriction and YELLOW to remove the selected one."
 msgstr ""
-"过滤器是另一个强大的工具,当匹配事件.自动定时开关可以限制某些平日或只与文中的"
-"描述一个事件,如.\n"
-"按蓝色添加新的限制和黄色来删除选定的一个."
+"筛选器是匹配事件时另一个强大的工具.自动定时器可以限制为某些工作日,或者只匹配带有文本(例如描述)的事件.\n"
+"按蓝键添加新限制,按黄键删除所选限制."
 
-msgid ""
-"First day to match events. No event that begins before this date will be "
-"matched."
-msgstr "匹配事件的第一天.在这个日期之前,没有任何事件将匹配."
+#: ../src/AutoTimerEditor.py:513 ../src/AutoTimerEditor.py:552
+msgid "First day to match events. No event that begins before this date will be matched."
+msgstr "最后一天来匹配事件,事件必须在这个日期之前开始匹配."
 
+#: ../src/AutoTimerResource.py:43 ../src/AutoTimer.py:717 ../src/AutoTimerResource.py:45
+#, python-format
 msgid ""
 "Found a total of %d matching Events.\n"
 "%d Timer were added and\n"
 "%d modified,\n"
 "%d conflicts encountered,\n"
+"%d unchanged,\n"
 "%d similars added."
 msgstr ""
-"发现了总的匹配事件.\n"
-"%d 定时添加和\n"
-"%d 修改,\n"
-"%d 遇到的冲突,\n"
-"%d 相似的添加."
+"共找到 %d 个匹配事件.\n"
+"添加了%d定时器和\n"
+"%d已修改,\n"
+"遇到%d个冲突,\n"
+"%d未更改,\n"
+"添加了%d个类似内容."
 
+#: ../src/AutoTimerOverview.py:228 ../src/AutoTimerOverview.py:265
 msgid "Frequently asked questions"
 msgstr "常见问题"
 
+#: ../src/faq.xml:3
 msgid "Frequently asked questions about the AutoTimer"
-msgstr "常见的自动计时器的问题"
+msgstr "关于自动定时器的常见问题"
 
+#: ../src/AutoTimerList.py:196
+msgid "Fri"
+msgstr "周五"
+
+#: ../src/AutoTimerEditor.py:48 ../src/AutoTimerEditor.py:49
 msgid "Friday"
 msgstr "星期五"
 
+#: ../src/mphelp.xml:11
 msgid "Generic setup"
 msgstr "通用设置"
 
+#: ../src/AutoTimerSettings.py:44 ../src/AutoTimerSettings.py:71 ../src/AutoTimerSettings.py:54
 msgid "Guess existing timer based on begin/end"
 msgstr "基于现有的定时器一开始/结束"
 
+#: ../src/AutoTimerOverview.py:227 ../src/AutoTimerOverview.py:264
 msgid "Help"
 msgstr "帮助"
 
 msgid "IMDb Search"
 msgstr "IMDB搜索"
 
-msgid ""
-"If a timer conflict occurs, AutoTimer will search outside the timespan for a "
-"similar event and add it."
-msgstr "如果定时器发生冲突,自动计时器将搜索以外的类似事件的时间跨度和添加."
+#: ../src/AutoTimerSettings.py:82 ../src/AutoTimerSettings.py:65
+msgid "If 0, the popup will remain open."
+msgstr "如果为0,则弹出窗口将保持打开状态."
 
+#: ../src/AutoTimerSettings.py:45 ../src/AutoTimerSettings.py:72 ../src/AutoTimerSettings.py:55
+msgid "If a timer conflict occurs, AutoTimer will search outside the timespan for a similar event and add it."
+msgstr "发生计时器冲突,自动定时器将搜索时间盘之外的类似事件并添加它."
+
+#: ../src/AutoTimerSettings.py:81 ../src/AutoTimerSettings.py:64
+msgid "If enabled, the polling will be skipped if EPGRefresh is currently running."
+msgstr "如果启用,如果当前正在运行EPG刷新,将跳过轮询."
+
+#: ../src/AutoTimerSettings.py:80 ../src/AutoTimerSettings.py:63
+msgid "If enabled, the polling will be skipped if a recording is in progress."
+msgstr "如果启用,则如果正在进行录像,则将跳过轮询."
+
+#: ../src/AutoTimerSettings.py:75 ../src/AutoTimerSettings.py:58
+msgid "If this is selected, the name of the respective AutoTimer will be added as a tag to timers created by this plugin."
+msgstr "如果选择此选项,则相应自动定时器的名称将作为标记添加到此插件创建的定时器."
+
+#: ../src/AutoTimerSettings.py:74 ../src/AutoTimerSettings.py:57
+msgid "If this is selected, the tag \"AutoTimer\" will be given to timers created by this plugin."
+msgstr "如果选中此选项,则标记 \"自动定时器\"将被赋予此插件创建的计时器."
+
+#: ../src/AutoTimerImporter.py:229 ../src/AutoTimerImporter.py:245
 msgid "Import AutoTimer"
-msgstr "导入自动计时器"
+msgstr "导入自动定时器"
 
+#: ../src/AutoTimerOverview.py:219 ../src/AutoTimerOverview.py:255
 msgid "Import existing Timer"
 msgstr "导入现有的定时器"
 
+#: ../src/AutoTimerOverview.py:220 ../src/AutoTimerOverview.py:256
 msgid "Import from EPG"
 msgstr "导入EPG"
 
+#: ../src/AutoTimerEditor.py:971 ../src/AutoTimerEditor.py:988 ../src/AutoTimerEditor.py:1009 ../src/AutoTimerEditor.py:1176 ../src/AutoTimerEditor.py:1193 ../src/AutoTimerEditor.py:1214
 msgid "Include"
-msgstr "包括"
+msgstr "包括由"
 
+#: ../src/AutoTimerSettings.py:74 ../src/AutoTimerSettings.py:57
+msgid "Include \"AutoTimer\" in tags"
+msgstr "标签中包含 \"自动定时器\""
+
+#: ../src/AutoTimerSettings.py:75 ../src/AutoTimerSettings.py:58
+msgid "Include AutoTimer name in tags"
+msgstr "标签中包含 \"自动定时器\""
+
+#: ../src/autotimerwizard.xml
 msgid ""
-"It's possible to restrict an AutoTimer to certain Services or Bouquets or to "
-"deny specific ones.\n"
-"An Event will only match this AutoTimer if it's on a specific and not denied "
-"Service (inside a Bouquet).\n"
+"It's possible to restrict an AutoTimer to certain Services or Bouquets or to deny specific ones.\n"
+"An Event will only match this AutoTimer if it's on a specific and not denied Service (inside a Bouquet).\n"
 "Press BLUE to add a new restriction and YELLOW to remove the selected one."
 msgstr ""
 "一种自动计时器限制某些服务或分组或拒绝特定的可能.\n"
 "一个事件只会匹配自动计时器如果它是在一个特定的和不拒绝服务（里面的气味）.\n"
 "按蓝色添加新的限制和黄色来删除选定的一个."
 
-msgid ""
-"Last day to match events. Events have to begin before this date to be "
-"matched."
-msgstr "到最后一天的比赛项目.事件必须在这个日期之前开始匹配."
+#: ../src/AutoTimerEditor.py:571
+msgid "Label Timers with season, episode and title, according to the SeriesPlugin settings."
+msgstr "根据Series插件设置带有季,集和标题的定时器标签."
 
+#: ../src/AutoTimerEditor.py:671
+msgid "Label series"
+msgstr "标签系列"
+
+#: ../src/AutoTimerEditor.py:514 ../src/AutoTimerEditor.py:553
+msgid "Last day to match events. Events have to begin before this date to be matched."
+msgstr "最后一天来匹配事件,事件必须在这个日期之前开始匹配."
+
+#: ../src/AutoTimerImporter.py:200 ../src/AutoTimerImporter.py:216
 msgid "Location"
 msgstr "位置"
 
+#: ../src/AutoTimerEditor.py:522 ../src/AutoTimerEditor.py:561
 msgid "Lower bound of timespan."
-msgstr "下界的时间跨度."
+msgstr "时间跨度的下限"
 
-msgid ""
-"Lower bound of timespan. Nothing before this time will be matched. Offsets "
-"are not taken into account!"
-msgstr "下界的时间跨度.没有什么之前,这一次将匹配.不考虑偏移量！"
+#: ../src/AutoTimerEditor.py:510 ../src/AutoTimerEditor.py:549
+msgid "Lower bound of timespan. Nothing before this time will be matched. Offsets are not taken into account!"
+msgstr "时间跨度的下限.在此之前没有任何匹配的内容.不考虑偏移!"
 
+#: ../src/AutoTimerImporter.py:157 ../src/AutoTimerImporter.py:173
+#, python-format
 msgid "Match Timespan: %02d:%02d - %02d:%02d"
-msgstr "匹配时间: %02d:%02d - %02d:%02d"
+msgstr "匹配时间:%02d:%02d - %02d:%02d"
 
+#: ../src/AutoTimerEditor.py:541 ../src/AutoTimerWizard.py:112 ../src/AutoTimerEditor.py:585
 msgid "Match title"
 msgstr "匹配标题"
 
+#: ../src/AutoTimerImporter.py:139 ../src/AutoTimerImporter.py:155
+#, python-format
 msgid "Match title: %s"
-msgstr "匹配标题： %s"
+msgstr "匹配标题: %s"
 
+#: ../src/AutoTimerEditor.py:586 ../src/AutoTimerEditor.py:630
 msgid "Maximum duration (in m)"
-msgstr "最大持续时间（米）"
+msgstr "最长持续时间 (in m)"
 
+#: ../src/AutoTimerEditor.py:519 ../src/AutoTimerEditor.py:558
+msgid "Maximum event duration to match. If an event is longer than this amount of time (without offset) it won't be matched."
+msgstr "匹配的最大事件持续时间.如果事件的时间长于该时间量(无偏移),则将不匹配该事件."
+
+#: ../src/AutoTimerOverview.py:186 ../src/AutoTimerOverview.py:202
+#, python-format
 msgid ""
-"Maximum event duration to match. If an event is longer than this amount of "
-"time (without offset) it won't be matched."
+"Message\n"
+"Do you really want to delete %s?"
 msgstr ""
-"最大事件持续时间匹配.如果一个事件的时间比这个时间长（没有偏移量）就不匹配."
+"信息\n"
+"您是否要删除%s?"
 
+#: ../src/AutoTimerSettings.py:43 ../src/AutoTimerSettings.py:70 ../src/AutoTimerSettings.py:53
 msgid "Modify existing timers"
 msgstr "修改现有定时器"
 
+#: ../src/AutoTimerList.py:192
+msgid "Mon"
+msgstr "周一"
+
+#: ../src/AutoTimerEditor.py:44 ../src/AutoTimerEditor.py:45
 msgid "Monday"
 msgstr "星期一"
 
+#: ../src/AutoTimerEditor.py:309 ../src/AutoTimerEditor.py:304
 msgid "Monthly"
-msgstr "月"
+msgstr "每月"
 
+#: ../src/AutoTimerEditor.py:309 ../src/AutoTimerEditor.py:304
 msgid "Never"
-msgstr "绝不"
+msgstr "从不"
 
+#: ../src/AutoTimerEditor.py:895 ../src/AutoTimerEditor.py:1098 ../src/AutoTimerEditor.py:1092 ../src/AutoTimerEditor.py:1309
 msgid "New"
-msgstr "新的"
+msgstr "新发现"
 
 msgid "New Search"
 msgstr "全新搜索"
 
+#: ../src/AutoTimerEditor.py:316 ../src/autotimerwizard.xml ../src/AutoTimerEditor.py:311 ../src/AutoTimerOverview.py:205
 msgid "No"
 msgstr "否"
 
+#: ../src/autotimerwizard.xml
 msgid "No, remove them."
-msgstr "不,删除."
+msgstr "删除"
 
+#: ../src/AutoTimerEditor.py:350 ../src/AutoTimerEditor.py:377 ../src/plugin.py:20 ../src/AutoTimerEditor.py:345 ../src/AutoTimerEditor.py:381
 msgid "None"
 msgstr "无"
 
+#: ../src/AutoTimerEditor.py:570 ../src/AutoTimerEditor.py:614
 msgid "Not after"
-msgstr "没有经过"
+msgstr "以后不会"
 
+#: ../src/AutoTimerEditor.py:569 ../src/AutoTimerEditor.py:613
 msgid "Not before"
-msgstr "之前没有"
+msgstr "以前没有"
 
+#: ../src/AutoTimerEditor.py:525 ../src/AutoTimerEditor.py:564
 msgid "Number of scheduled recordings left."
 msgstr "预定的录音数量."
 
+#: ../src/AutoTimerEditor.py:436 ../src/AutoTimerEditor.py:1096 ../src/AutoTimerImporter.py:46 ../src/AutoTimerImporter.py:120 ../src/AutoTimerSettings.py:67 ../src/AutoTimerEditor.py:457
+#: ../src/AutoTimerEditor.py:1307 ../src/AutoTimerImporter.py:47 ../src/AutoTimerImporter.py:136 ../src/AutoTimerSettings.py:101 ../src/AutoTimerSettings.py:127
 msgid "OK"
-msgstr "OK"
+msgstr "确定"
 
+#: ../src/AutoTimerEditor.py:579 ../src/AutoTimerEditor.py:623
 msgid "Offset after recording (in m)"
-msgstr "检测到输入为:英语偏置后的记录（米）"
+msgstr "录制后的偏移量(in m)"
 
+#: ../src/AutoTimerEditor.py:578 ../src/AutoTimerEditor.py:622
 msgid "Offset before recording (in m)"
-msgstr "在记录的偏移量（米）"
+msgstr "录制前的偏移量(in m)"
 
+#: ../src/AutoTimerEditor.py:318 ../src/AutoTimerEditor.py:313
 msgid "On any service"
-msgstr "在任何服务"
+msgstr "任何服务"
 
+#: ../src/AutoTimerEditor.py:317 ../src/AutoTimerEditor.py:312
 msgid "On same service"
-msgstr "在同一服务"
+msgstr "同样的服务"
 
+#: ../src/plugin.py:21
 msgid "Only AutoTimers created during this session"
-msgstr "只有自动定时器创建过程中"
+msgstr "仅在此会话期间创建自动定时器"
 
+#: ../src/AutoTimerSettings.py:41 ../src/AutoTimerSettings.py:67 ../src/AutoTimerSettings.py:50
 msgid "Only add timer for next x days"
-msgstr "只添加下X天计时器"
+msgstr "仅在接下来的X天添加定时器"
 
+#: ../src/AutoTimerSettings.py:45
+msgid "Allow double timer for different services"
+msgstr "允许双重计时器提供不同的服务"
+
+#: ../src/AutoTimerSettings.py:45
+msgid "Here you can specify whether simultaneous timers of the same program can be created. This allows simultaneous recording of a program with different resolutions. (e.g. SD service and HD service)"
+msgstr "在这里,您可以指定是否可以创建同一程序的同时计时器.这样可以同时录制不同分辨率的节目.(例如标清服务和高清服务)"
+
+#: ../src/AutoTimerEditor.py:554 ../src/AutoTimerWizard.py:97 ../src/AutoTimerEditor.py:598
 msgid "Only match during timespan"
-msgstr "只有在时间跨度匹配"
+msgstr "仅在时间跨度内匹配"
 
+#: ../src/AutoTimerImporter.py:173 ../src/AutoTimerImporter.py:189
+#, python-format
 msgid "Only on Service: %s"
-msgstr "我们的服务：%s"
+msgstr "仅在服务中: %s"
 
+#: ../src/AutoTimerImporter.py:164 ../src/AutoTimerImporter.py:180
+#, python-format
 msgid "Only on Weekday: %s"
-msgstr "检测到输入为:西班牙语只有在周日：%s"
+msgstr "仅在工作日: %s"
 
+#: ../src/AutoTimerSettings.py:58 ../src/AutoTimerSettings.py:40
 msgid "Only poll while in standby"
-msgstr "只有在待机时才调查"
+msgstr "仅在待机状态下轮询"
 
+#: ../src/AutoTimerOverview.py:92 ../src/AutoTimerOverview.py:107
 msgid "Open Context Menu"
 msgstr "打开上下文菜单"
 
+#: ../src/AutoTimerEditor.py:553
+msgid "Override found with alternative service"
+msgstr "覆盖替代频道"
+
+#: ../src/AutoTimerImporter.py:316 ../src/AutoTimerImporter.py:332
 msgid "Please provide a Text to match"
-msgstr "请提供文本以匹配"
+msgstr "请提供匹配文本"
 
+#: ../src/AutoTimerSettings.py:40 ../src/AutoTimerSettings.py:31
+msgid "Poll Interval (in h)"
+msgstr "轮询间隔（小时）"
+
+#: ../src/AutoTimerSettings.py:64 ../src/AutoTimerSettings.py:35
 msgid "Poll Interval (in mins)"
-msgstr "调查时间（分钟）"
+msgstr "轮询间隔 分钟)"
 
+#: ../src/AutoTimerSettings.py:39 ../src/AutoTimerSettings.py:57
 msgid "Poll automatically"
-msgstr "自动调查"
+msgstr "自动轮询"
 
-msgid ""
-"Power state to change to after recordings. Select \"standard\" to not change "
-"the default behavior of enigma2 or values changed by yourself."
-msgstr ""
-"功率状态改变后的录音.选择“标准”,以不改变默认的行为或价值观改变自己enigma2."
+#: ../src/AutoTimerSettings.py:82 ../src/AutoTimerSettings.py:65
+msgid "Popup timeout in seconds"
+msgstr "弹出超时（以秒为单位）"
 
+#: ../src/AutoTimerEditor.py:520 ../src/AutoTimerEditor.py:559
+msgid "Power state to change to after recordings. Select \"standard\" to not change the default behavior of enigma2 or values changed by yourself."
+msgstr "录制后电源状态更改为. 选择\"标准\"以不更改enigma2的默认行为或您自己更改的值."
+
+#: ../src/AutoTimerOverview.py:218 ../src/AutoTimerOverview.py:254
 msgid "Preview"
 msgstr "预览"
 
+#: ../src/AutoTimerPreview.py:76 ../src/AutoTimerPreview.py:101
 msgid "Preview AutoTimer"
-msgstr "预览自动计时器"
+msgstr "预览自动定时器"
 
+#: ../src/faq.xml:7
 msgid ""
-"Question: I found a problem with the AutoTimer, can you fix it?/nAnswer: "
-"First try the AutoTimer version in a recent (experimental) Image to see if "
-"the problem was fixed. Then read the Help again and the upcoming FAQs to "
-"make sure that this is actually a problem and not expected behavior./nIf you "
-"still think there is something wrong with the AutoTimer, please visit http://"
-"www.dream-multimedia-tv.de/board and post your problem there./n/nQ: The "
-"plugin only adds timers when leaving the configuration, not automatically. "
-"What can I do?/nA: From the Overview press MENU and enter the 'Setup'. In "
-"this screen enable 'Poll automatically' and you should be good to go."
+"Question: I found a problem with the AutoTimer, can you fix it?/nAnswer: First try the AutoTimer version in a recent (experimental) Image to see if the problem was fixed. Then read the Help again "
+"and the upcoming FAQs to make sure that this is actually a problem and not expected behavior./nIf you still think there is something wrong with the AutoTimer, please visit http://www.dream-"
+"multimedia-tv.de/board and post your problem there./n/nQ: The plugin only adds timers when leaving the configuration, not automatically. What can I do?/nA: From the Overview press MENU and enter the "
+"'Setup'. In this screen enable 'Poll automatically' and you should be good to go."
 msgstr ""
-"问：我发现与自动计时器的一个问题,你能修吗？/n答：首先尝试自动计时器版本在最近"
-"的（实验）图像看问题是固定的.然后读的帮助并确保这是一个问题而不是行为预期即将"
-"到来的问题.如果你还是觉得有什么不对的自动开关,请访问http://www.dream-"
-"multimedia-tv.de/board和张贴您的问题.如果你还是觉得有什么不对的自动开关,请访"
-"问http://www.dream-multimedia-tv.de/board和张贴您的问题./n/n问：该插件只会增"
-"加配置时,不会自动添加计时器.我能做什么？/n从“概述”菜单中输入“安装”.在这个屏幕"
-"上启用“自动投票”,你应该是最棒的."
+"问：我发现与自动计时器的一个问题,你能修吗？/n答：首先尝试自动计时器版本在最近的（实验）图像看问题是固定的.然后读的帮助并确保这是一个问题而不是行为预期即将到来的问题.如果你还是觉得有什么不对的自动开"
+"关,请访问http://www.dream-multimedia-tv.de/board和张贴您的问题.如果你还是觉得有什么不对的自动开关,请访问http://www.dream-multimedia-tv.de/board和张贴您的问题./n/n问：该插件只会增加配置时,不会自动添加"
+"计时器.我能做什么？/n从“概述”菜单中输入“安装”.在这个屏幕上启用“自动投票”,你应该是最棒的."
 
+#: ../src/faq.xml:10
 msgid ""
-"Question: My AutoTimer for 'News' does not record the 'Late News'./nAnswer: "
-"Check 'Search type' and 'Search strictness' for the given AutoTimer./n/nQ: "
-"The show I'm trying to record contains umlauts in its title. AutoTimer does "
-"not find it./nA: Check the 'EPG encoding' for the given AutoTimer. For "
-"german stations 'UTF-8' should be selected./n/nQ: I seem to be unable to "
-"record two subsequent events. There is only a single timer created that "
-"spans (part of) both events./nA: From the Overview press MENU and enter the "
-"'Setup'. In this screen disable 'Guess existing timer based on begin/end'."
+"Question: My AutoTimer for 'News' does not record the 'Late News'./nAnswer: Check 'Search type' and 'Search strictness' for the given AutoTimer./n/nQ: The show I'm trying to record contains umlauts "
+"in its title. AutoTimer does not find it./nA: Check the 'EPG encoding' for the given AutoTimer. For german stations 'UTF-8' should be selected./n/nQ: I seem to be unable to record two subsequent "
+"events. There is only a single timer created that spans (part of) both events./nA: From the Overview press MENU and enter the 'Setup'. In this screen disable 'Guess existing timer based on begin/"
+"end'."
 msgstr ""
-"问：我的“新闻”不记录的晚新闻自动计时器./ nanswer：检查“搜索型”和“严”搜索为给"
-"定的自动计时器./n/n问：显示我想记录包含在标题的变音.自动计时器不找到它./n答："
-"检查“EPG编码为给定的自动计时器.德国站使用应选择./n/n问：我似乎无法记录下2个随"
-"后发生的事件.只有一个定时器创建的时间跨度（一部分）这两个事件./n从“概述”菜单"
-"中输入“安装”.在这个屏幕上禁用“猜测现有计时器基于开始/结束”."
+"问：我的“新闻”不记录的晚新闻自动计时器./ nanswer：检查“搜索型”和“严”搜索为给定的自动计时器./n/n问：显示我想记录包含在标题的变音.自动计时器不找到它./n答：检查“EPG编码为给定的自动计时器.德国站使用应选"
+"择./n/n问：我似乎无法记录下2个随后发生的事件.只有一个定时器创建的时间跨度（一部分）这两个事件./n从“概述”菜单中输入“安装”.在这个屏幕上禁用“猜测现有计时器基于开始/结束”."
 
+#: ../src/faq.xml:13
 msgid ""
-"Question: You keep talking about help being provided for each parameter. I'm "
-"unable to read it (in part or in full)./nAnswer: Try using the default skin "
-"and if it works ask the creator of your regular skin. If it still does not "
-"work your image might not provide the actual default skin so contact the "
-"creator of your image."
+"Question: You keep talking about help being provided for each parameter. I'm unable to read it (in part or in full)./nAnswer: Try using the default skin and if it works ask the creator of your "
+"regular skin. If it still does not work your image might not provide the actual default skin so contact the creator of your image."
 msgstr ""
-"问题：你一直在谈论关于每个参数的帮助.我不能读它（在部分或全部）./n答：尝试使"
-"用默认的皮肤,如果它的作品问你的正常皮肤的创造者.如果它仍然不工作你的形象可能"
-"不会提供实际的默认皮肤,所以联系你的形象的创造者."
+"问题：你一直在谈论关于每个参数的帮助.我不能读它（在部分或全部）./n答：尝试使用默认的皮肤,如果它的作品问你的正常皮肤的创造者.如果它仍然不工作你的形象可能不会提供实际的默认皮肤,所以联系你的形象的创造"
+"者."
 
+#: ../src/AutoTimerEditor.py:695 ../src/AutoTimerEditor.py:1038 ../src/AutoTimerEditor.py:1209 ../src/AutoTimerImporter.py:235 ../src/AutoTimerOverview.py:203 ../src/AutoTimerEditor.py:753
+#: ../src/AutoTimerEditor.py:1247 ../src/AutoTimerEditor.py:1420 ../src/AutoTimerImporter.py:251 ../src/AutoTimerOverview.py:239
 msgid "Really close without saving settings?"
-msgstr "真的关闭不保存设置？"
+msgstr "是否关闭而不保存设置？"
 
+#: ../src/AutoTimerEditor.py:601 ../src/AutoTimerEditor.py:645
 msgid "Record a maximum of x times"
-msgstr "记录最大X次"
+msgstr "最多录制x次"
 
+#: ../src/AutoTimerEditor.py:1147 ../src/AutoTimerEditor.py:1201 ../src/AutoTimerEditor.py:1358 ../src/AutoTimerEditor.py:1412
 msgid "Record on"
-msgstr "记录"
+msgstr "录像"
 
+#: ../src/AutoTimerSettings.py:83 ../src/AutoTimerSettings.py:66
+msgid "Remove not existing events"
+msgstr "删除不存在的事件"
+
+#: ../src/AutoTimerOverview.py:100 ../src/AutoTimerOverview.py:115
 msgid "Remove selected AutoTimer"
-msgstr "删除选定的自动计时器"
+msgstr "删除选中自动定时器"
 
+#: ../src/AutoTimerEditor.py:609 ../src/AutoTimerEditor.py:653
 msgid "Require description to be unique"
-msgstr "需要描述的是独特的"
+msgstr "要求描述是唯一的"
 
+#: ../src/AutoTimerEditor.py:607 ../src/AutoTimerEditor.py:651
 msgid "Reset count"
 msgstr "重置计数"
 
+#: ../src/AutoTimerEditor.py:521 ../src/AutoTimerEditor.py:560
 msgid "Restrict \"after event\" to a certain timespan?"
-msgstr "限制“事后”到一定的时间？"
+msgstr "执行 \"事件后\"期间的时间间隔"
 
+#: ../src/AutoTimerEditor.py:573
 msgid ""
 "Restrict autotimer to bouquets.\n"
 "Use the blue key to edit the bouquet filter."
@@ -585,6 +812,7 @@ msgstr ""
 "将自动定时器限制为分组.\n"
 "使用蓝色键编辑分组滤波器."
 
+#: ../src/AutoTimerEditor.py:574
 msgid ""
 "Restrict autotimer to specific days.\n"
 "Use the yellow key to edit the day filter."
@@ -592,559 +820,670 @@ msgstr ""
 "将自动定时器限制为特定日期.\n"
 "使用黄色键编辑日滤波器."
 
+#: ../src/AutoTimerEditor.py:572
 msgid ""
 "Restrict autotimer to specific services, channels.\n"
 "Use the blue key to edit the service filter."
 msgstr ""
 "限制自动计时器到特定的服务频道.\n"
-"使用蓝色键编辑服务滤波器 ."
+"使用蓝色键编辑服务滤波器."
 
+#: ../src/AutoTimerEditor.py:680
 msgid "Restrict to days"
-msgstr "限制天数"
+msgstr "仅限几天"
 
+#: ../src/AutoTimerEditor.py:564 ../src/AutoTimerEditor.py:608
 msgid "Restrict to events on certain dates"
 msgstr "限制在特定日期的事件"
 
+#: ../src/AutoTimerEditor.py:679
 msgid "Restrict to specific bouquets"
 msgstr "限制特定分组"
 
+#: ../src/AutoTimerEditor.py:678
 msgid "Restrict to specific services"
 msgstr "限制特定频道"
 
+#: ../src/AutoTimerList.py:197
+msgid "Sat"
+msgstr "周六"
+
+#: ../src/AutoTimerEditor.py:49 ../src/AutoTimerEditor.py:50
 msgid "Saturday"
 msgstr "星期六"
 
+#: ../src/AutoTimerEditor.py:893 ../src/AutoTimerOverview.py:71 ../src/AutoTimerEditor.py:1090 ../src/AutoTimerOverview.py:86
 msgid "Save"
 msgstr "保存"
 
+#: ../src/AutoTimerEditor.py:547 ../src/AutoTimerEditor.py:591
 msgid "Search strictness"
-msgstr "搜索信息"
+msgstr "搜索"
 
+#: ../src/AutoTimerEditor.py:546 ../src/AutoTimerEditor.py:590
 msgid "Search type"
 msgstr "搜索类型"
 
+#: ../src/AutoTimerEditor.py:504 ../src/AutoTimerEditor.py:543
 msgid ""
-"Select \"exact match\" to enforce \"Match title\" to match exactly, "
-"\"partial match\" if you only want to search for a part of the event title "
-"or \"description match\" if you only want to search for a part of the event "
-"description."
-msgstr ""
-"如果只想搜索事件标题的一部分,请选择'精确匹配'强制'匹配标题'精确匹配, 如果只想"
-"搜索事件描述的一部分,请选择'部分匹配'."
+"Select \"exact match\" to enforce \"Match title\" to match exactly, \"partial match\" if you only want to search for a part of the event title or \"description match\" if you only want to search for "
+"a part of the event description."
+msgstr "如果只想搜索事件标题的一部分,请选择'精确匹配'强制'匹配标题'精确匹配, 如果只想搜索事件描述的一部分,请选择'部分匹配'."
 
+#: ../src/AutoTimerImporter.py:60 ../src/AutoTimerImporter.py:61
 msgid "Select a timer to import"
-msgstr "选择一个计时器导入"
+msgstr "选择要导入的定时器"
 
+#: ../src/AutoTimerEditor.py:1185 ../src/AutoTimerEditor.py:1396
 msgid "Select bouquet to record on"
-msgstr "选择一个分组来记录"
+msgstr "选择一个分组来录制"
 
+#: ../src/AutoTimerEditor.py:1179 ../src/AutoTimerEditor.py:1390
 msgid "Select channel to record on"
-msgstr "选择频道记录"
+msgstr "选择要录制的频道"
 
+#: ../src/AutoTimerEditor.py:530 ../src/AutoTimerEditor.py:569
 msgid "Select the location to save the recording to."
-msgstr "选择要保存记录的位置."
+msgstr "选择要将录制保存到的位置。"
 
+#: ../src/AutoTimerEditor.py:1006 ../src/AutoTimerEditor.py:1211
 msgid "Select type of Filter"
 msgstr "选择过滤器类型"
 
+#: ../src/AutoTimerEditor.py:505 ../src/AutoTimerEditor.py:544
 msgid "Select whether or not you want to enforce case correctness."
-msgstr "选择是否要执行正确的案例."
+msgstr "选择是否要强制执行大小写正确性."
 
+#: ../src/AutoTimerEditor.py:551 ../src/AutoTimerEditor.py:595
 msgid "Set End Time"
 msgstr "设置结束时间"
 
-msgid ""
-"Set an end time for the timer. If you do, the timespan of the event might be "
-"blocked for recordings."
-msgstr "设置定时器的结束时间.如果你这样做,事件的时间跨度可能被录音."
+#: ../src/AutoTimerEditor.py:507 ../src/AutoTimerEditor.py:546
+msgid "Set an end time for the timer. If you do, the timespan of the event might be blocked for recordings."
+msgstr "设置计时器的结束时间.如果您这样做,事件的时间轴可能会被阻塞以供录制."
 
+#: ../src/AutoTimerEditor.py:582 ../src/AutoTimerEditor.py:626
 msgid "Set maximum duration"
 msgstr "设置最大持续时间"
 
+#: ../src/AutoTimerEditor.py:500 ../src/AutoTimerEditor.py:539
 msgid "Set this NO to disable this AutoTimer."
-msgstr "设置这个没有关闭这个自动计时器."
+msgstr "将此NO设置为禁用此自动定时器."
 
-msgid ""
-"Set timer type: zap, simple record, zap+record (always zap to service before "
-"start record)."
-msgstr "设置计时器类型:ZAP,简单记录,ZAP+记录(在开始录制之前总是服务于ZAP)."
+#: ../src/AutoTimerEditor.py:545
+msgid "Set timer type: zap, simple record, zap+record (always zap to service before start record)."
+msgstr "设置计时器类型:快速,简单记录,快速+记录(始终在开始录制之前快速服务)"
 
+#: ../src/AutoTimerOverview.py:221 ../src/AutoTimerOverview.py:257
 msgid "Setup"
-msgstr "安装程序"
+msgstr "设置"
 
+#: ../src/AutoTimerEditor.py:509 ../src/AutoTimerEditor.py:548
 msgid "Should this AutoTimer be restricted to a timespan?"
-msgstr "这应该自动计时器被限制在一个时间？"
+msgstr "是否将自动计时器限制在一个时间？"
 
+#: ../src/AutoTimerEditor.py:518 ../src/AutoTimerEditor.py:557
 msgid "Should this AutoTimer only match up to a certain event duration?"
-msgstr "这应该自动计时器只匹配到一个特定的事件的持续时间？"
+msgstr "此自动计时器是否只应匹配特定事件持续时间?"
 
-msgid ""
-"Should timers created by this AutoTimer be recorded to a custom location?"
-msgstr "该定时器由这个自动计时器被记录到一个自定义的位置吗？"
+#: ../src/AutoTimerEditor.py:529 ../src/AutoTimerEditor.py:568
+msgid "Should timers created by this AutoTimer be recorded to a custom location?"
+msgstr "此自动计时器创建的计时器是否应记录到自定义位置?"
 
+#: ../src/AutoTimerSettings.py:42 ../src/AutoTimerSettings.py:69 ../src/AutoTimerSettings.py:52
 msgid "Show in extension menu"
-msgstr "显示在扩展菜单"
+msgstr "显示在扩展菜单中"
 
+#: ../src/AutoTimerSettings.py:68 ../src/AutoTimerSettings.py:51
 msgid "Show in plugin browser"
-msgstr "显示插件浏览器"
+msgstr "显示在插件浏览器中"
 
+#: ../src/AutoTimerSettings.py:47 ../src/AutoTimerSettings.py:76 ../src/AutoTimerSettings.py:59
 msgid "Show notification on conflicts"
 msgstr "显示冲突通知"
 
+#: ../src/AutoTimerSettings.py:48 ../src/AutoTimerSettings.py:77 ../src/AutoTimerSettings.py:60
 msgid "Show notification on similars"
-msgstr "通知上显示相似"
+msgstr "在类似产品上显示通知"
 
+#: ../src/AutoTimerSettings.py:81 ../src/AutoTimerSettings.py:64
+msgid "Skip poll during epg refresh"
+msgstr "在epg刷新过程中跳过民意调查"
+
+#: ../src/AutoTimerSettings.py:80 ../src/AutoTimerSettings.py:63
+msgid "Skip poll during records"
+msgstr "在录像期间跳过轮询"
+
+#: ../src/AutoTimerPreview.py:82 ../src/AutoTimerPreview.py:107
 msgid "Sort AutoTimer"
-msgstr "排序自动计时器"
+msgstr "排序自动定时器"
 
+#: ../src/AutoTimerPreview.py:80 ../src/AutoTimerPreview.py:105
 msgid "Sort Time"
 msgstr "排序时间"
 
+#: ../src/AutoTimerSettings.py:61 ../src/AutoTimerSettings.py:43
+msgid "Startup delay (in min)"
+msgstr "启动延迟时间（分钟）"
+
+#: ../src/AutoTimerList.py:198
+msgid "Sun"
+msgstr "周日"
+
+#: ../src/AutoTimerEditor.py:50 ../src/AutoTimerEditor.py:51
 msgid "Sunday"
 msgstr "星期日"
 
+#: ../src/AutoTimerSettings.py:50 ../src/AutoTimerSettings.py:79 ../src/AutoTimerSettings.py:62
 msgid "Support \"Fast Scan\"?"
 msgstr "支持 \"快速扫描\"?"
 
+#: ../src/AutoTimerEditor.py:619 ../src/AutoTimerImporter.py:209 ../src/AutoTimerEditor.py:663 ../src/AutoTimerImporter.py:225
 msgid "Tags"
 msgstr "标签"
 
+#: ../src/AutoTimerEditor.py:531 ../src/AutoTimerEditor.py:570
 msgid "Tags the Timer/Recording will have."
-msgstr "标签将定时器/录制。"
+msgstr "定时器/录制将具有的标签."
 
+#: ../src/autotimerwizard.xml
 msgid ""
-"Thank you for using the wizard. Your new AutoTimer has been added to the "
-"List.\n"
+"Thank you for using the wizard. Your new AutoTimer has been added to the List.\n"
 "Please press OK to continue."
 msgstr ""
-"感谢您使用该向导.你的新的自动计时器已被添加到列表中.\n"
-"请按“确定”继续."
+"感谢使用向导.新的自动定时器已添加到列表.\n"
+"请按OK键继续."
 
+#: ../src/mphelp.xml:5
 msgid "The 'Overview'"
 msgstr "“概述”"
-
-msgid ""
-"The AutoTimer overview is the standard entry point to this plugin./n/nIf "
-"AutoTimers are configured you can choose them from a list to change them (OK "
-"button on your remove) or remove them (YELLOW button on your remote)./nNew "
-"Timers can be added by pressing the BLUE button and the control menu can be "
-"opened using the MENU button./n/nWhen leaving the plugin using the GREEN "
-"button it will search the EPG for matching events ONCE. To configure a "
-"regular search interval of the plugin to search for events open the control "
-"menu and enter the plugin setup."
-msgstr ""
-"自动计时器概述是标准的切入点这个插件./n/n如果autotimers配置,你可以选择从一个"
-"列表来改变他们（你的删除确定按钮）或删除（黄色的遥控器上的按钮）./n可按“蓝”按"
-"钮添加新的计时器,并且可以使用菜单按钮打开控制菜单./n/n当离开插件使用绿色按钮,"
-"它会搜索EPG匹配事件一旦.要配置一个普通的搜索间隔,搜索事件打开控制菜单,进入插"
-"件设置."
 
 msgid "The Book of John Gray"
 msgstr "匹配属性是强制的"
 
+#: ../src/mphelp.xml:6
+msgid ""
+"The AutoTimer overview is the standard entry point to this plugin./n/nIf AutoTimers are configured you can choose them from a list to change them (OK button on your remote) or remove them (YELLOW "
+"button on your remote)./nNew Timers can be added by pressing the BLUE button and the control menu can be opened using the MENU button./n/nWhen leaving the plugin using the GREEN button it will "
+"search the EPG for matching events ONCE. To configure a regular search interval of the plugin to search for events open the control menu and enter the plugin setup."
+msgstr ""
+"更改它们(遥控器上的“确定”按键)或删除它们(遥控器上的“黄色”按键)./n可以通过按蓝色按键来添加新定时器,并可以使用菜单按键来打开控制菜单./n/n离开插件时使用绿色按键,它将一次在EPG中搜索匹配事件.要配置插件的"
+"常规搜索间隔以搜索事件,请打开控制菜单,然后输入插件设置."
+
+#: ../src/autotimerwizard.xml
 msgid ""
 "The Timer will not be added to the List.\n"
 "Please press OK to close this Wizard."
 msgstr ""
-"计时器将不被添加到列表中.\n"
-"请按“确定”以关闭该向导."
+"定时器将不会添加到列表.\n"
+"请按OK键关闭此向导."
 
+#: ../src/autotimerwizard.xml
+msgid "The Timespan of an AutoTimer is the first 'advanced' attribute. If a timespan is specified an event will only match this AutoTimer if it lies inside of this timespan."
+msgstr "自动定时器的时间跨度是第一个“高级”属性.果指定了时间跨度,仅当事件位于此时间跨度内时,件才会与该自动定时器匹配."
+
+#: ../src/AutoTimer.py:151
+msgid "The autotimer file (/etc/enigma2/autotimer.xml) is corrupt. A new and empty config was created. A backup of the config can be found here (/etc/enigma2/autotimer.xml_old) "
+msgstr "自动计时器文件(etc/enigma2/autotimer.xml)损坏.建了一个新的空配置.以在这里找到配置的备份(etc/enigma2/autotimer.xml_old)"
+
+#: ../src/mphelp.xml:9
 msgid ""
-"The Timespan of an AutoTimer is the first 'advanced' attribute. If a "
-"timespan is specified an event will only match this AutoTimer if it lies "
-"inside of this timespan."
+"The control menu hides less frequently used options of the plugin, including the configuration and default settings for new AutoTimers./n/nWhile you can just open the menu and take a look for "
+"yourself, let's go through the available options:/n - Help:/n   What you are looking at right now/n - Preview:/n   Simulate EPG search, helps finding errors in your setup./n - Import existing Timer:/"
+"n   Create a new AutoTimer based on an existing regular timer./n - Import from EPG:/n   Create an AutoTimer based on an EPG event./n - Setup:/n   Generic configuration of the plugin./n - Edit new "
+"timer defaults:/n   Configure default values for new AutoTimers./n - Create a new timer using the wizard/classic editor:/n   Use the non-default editor to create a new AutoTimer."
 msgstr ""
-"一个自动计时器的时间是第一个高级属性.如果一个TimeSpan指定事件只会匹配自动计时"
-"器如果藏在这个时间跨度."
+"控制菜单隐藏了不常用的插件选项,括新自动定时器的配置和默认设置./n/n虽然您可以打开菜单并自行查看一下,让我们看一下可用选项：/n-帮助 ：/n您正在查看的内容/n-预览：/n模拟EPG搜索,帮助您查找设置错误./n-导入"
+"现有定时器：/ n基于现有的常规定时器创建新的自动定时器. -从EPG导入：/n基于EPG事件创建自动定时器./n-设置：/n插件的常规配置./n-编辑新的定时器默认值：/n为新的自动定时器配置默认值./n-创建 使用向导/经典编"
+"辑器创建新的计时器：/ n使用非默认编辑器创建新的自动计时器."
 
-msgid ""
-"The control menu hides less frequently used options of the plugin, including "
-"the configuration and default settings for new AutoTimers./n/nWhile you can "
-"just open the menu and take a look for yourself, let's go through the "
-"available options:/n - Help:/n   What you are looking at right now/n - "
-"Preview:/n   Simulate EPG search, helps finding errors in your setup./n - "
-"Import existing Timer:/n   Create a new AutoTimer based on an existing "
-"regular timer./n - Import from EPG:/n   Create an AutoTimer based on an EPG "
-"event./n - Setup:/n   Generic configuration of the plugin./n - Edit new "
-"timer defaults:/n   Configure default values for new AutoTimers./n - Create "
-"a new timer using the wizard/classic editor:/n   Use the non-default editor "
-"to create a new AutoTimer."
-msgstr ""
-"控制菜单隐藏不经常使用的插件的选项,包括新的自动定时器的配置和默认设置./n/n当"
-"你打开菜单,自己去看一看,让我们去通过可用的选项：/n-帮助：/n  你现在正在看的是"
-"什么/n -预览：/n  模拟EPG搜索,帮助您设置发现错误./n - 导入现有计时器：/n  创"
-"建一个基于现有的定时自动开关的新./n -导入EPG：:/n  创建基于EPG的事件自动定时"
-"开关./n - 安装程序/n   插件的一般配置./n -编辑新的定时器默认值：/n  配置新的"
-"自动计时器的默认值./n - 使用向导/经典编辑器创建一个新的计时器：/n  使用非默认"
-"的编辑器来创建一个新的自动计时器."
+#: ../src/AutoTimerEditor.py:526 ../src/AutoTimerEditor.py:565
+msgid "The counter can automatically be reset to the limit at certain intervals."
+msgstr "计数器可以在一定的时间间隔内自动复位到限位。"
 
-msgid ""
-"The counter can automatically be reset to the limit at certain intervals."
-msgstr "该计数器可以在特定的时间间隔自动重置为限制."
+#: ../src/AutoTimerSettings.py:49 ../src/AutoTimerSettings.py:78 ../src/AutoTimerSettings.py:61
+msgid "The editor to be used for new AutoTimers. This can either be the Wizard or the classic editor."
+msgstr "用于新的自动定时器的编辑器.可以是向导.可以是经典编辑器."
 
-msgid ""
-"The editor to be used for new AutoTimers. This can either be the Wizard or "
-"the classic editor."
-msgstr "用于新的自动计时器的编辑器.这可以是向导或经典的编辑器."
-
+#: ../src/AutoTimerEditor.py:712 ../src/AutoTimerEditor.py:770
 msgid "The match attribute is mandatory."
-msgstr "匹配属性是强制的."
+msgstr "比赛属性是强制性的."
 
+#: ../src/faq.xml:4
 msgid ""
-"This FAQ is supposed to help everyone unwilling to help themselves by "
-"reading all the provided help available, and those who did not find a "
-"solution to their problems within the provided documentation./n/nTo make "
-"these hints a little easier to read, they are split up on multiple pages. "
-"You can go to the next page using the BLUE button on your remote control and "
-"back using the YELLOW one. Pressing the RED button or EXIT will close the "
-"FAQ."
+"This FAQ is supposed to help everyone unwilling to help themselves by reading all the provided help available, and those who did not find a solution to their problems within the provided "
+"documentation./n/nTo make these hints a little easier to read, they are split up on multiple pages. You can go to the next page using the BLUE button on your remote control and back using the YELLOW "
+"one. Pressing the RED button or EXIT will close the FAQ."
 msgstr ""
-"This FAQ is supposed to help everyone unwilling to help themselves by "
-"reading all the 这个问题应该是帮助每个人都不愿意帮助自己通过阅读所有提供的帮"
-"助,和那些没有找到问题的解决方案在提供的文件./n/n为了使这些提示更容易阅读,他们"
-"被分割在多页.你可以去下一个页面使用蓝色按钮在你的遥控器和背面使用黄色的.按下"
-"红色按钮,将关闭或退出的问题."
+"本常见问题解答旨在通过阅读所有提供的可用帮助来帮助每个不愿意帮助自己的人,以及那些在提供的文档中未找到解决问题的方法的人./n/n为了使这些提示更易于阅读, 分成多页.您可以使用遥控器上的蓝色键转到下一页,然"
+"后使用黄色键返回上一页. 按红色键或退出键将关闭常见问题."
 
+#: ../src/AutoTimerEditor.py:575
 msgid ""
 "This allows you to apply other filters.\n"
 "Use the yellow key to edit other filters."
 msgstr ""
-"这允许您应用其他筛选器.\n"
-"使用黄色键编辑其他筛选器."
+"这样您就可以应用其他过滤器.\n"
+"使用黄色键可以编辑其他过滤器."
 
+#: ../src/mphelp.xml:3
 msgid ""
-"This help screen is supposed to give you a quick look at everything the "
-"AutoTimer has to offer./nYou can abort it at any time by pressing the RED or "
-"EXIT button on your remote control or bring it up at a later point by "
-"selecting it from the control menu using the MENU button from the regular "
-"entry point of the plugin (more on that later)./n/n/nBut you really should "
-"consider to take the few minutes it takes to read these help pages."
+"This help screen is supposed to give you a quick look at everything the AutoTimer has to offer./nYou can abort it at any time by pressing the RED or EXIT button on your remote control or bring it up "
+"at a later point by selecting it from the control menu using the MENU button from the regular entry point of the plugin (more on that later)./n/n/nBut you really should consider to take the few "
+"minutes it takes to read these help pages."
 msgstr ""
-"这帮助屏幕应该是给你一切的自动计时器所提供的快速查找./n您可以随时中止它在您的"
-"遥控器上的红色或退出按钮,或在稍后的一个点,通过选择它从控制菜单中使用的菜单按"
-"钮,从常规入口点的插件（更多的是稍后）./n/n/n你真的应该考虑采取几分钟的时间来"
-"阅读这些帮助页面."
+"该帮助屏幕应该可以让您快速了解自动定时器提供的所有内容./n您可以随时按遥控器上的RED或EXIT键来中止它,也可以稍后选择它来调出它 从控制菜单使用插件常规入口处的MENU键(稍后会详细介绍)/n/n/n但是您确实应该考"
+"虑花些时间阅读这些帮助页面."
 
-msgid ""
-"This is a name you can give the AutoTimer. It will be shown in the Overview "
-"and the Preview."
-msgstr "这是一个名字,你可以把自动计时器.它将显示在概述和预览."
+#: ../src/AutoTimerEditor.py:501 ../src/AutoTimerEditor.py:540
+msgid "This is a name you can give the AutoTimer. It will be shown in the Overview and the Preview."
+msgstr "这是您可以给自动定时器指定的名称. 它将显示在概述和预览中."
 
+#: ../src/mphelp.xml:15
 msgid ""
-"This is mostly a matter of taste./nThe Wizard provides you with a reduced "
-"set of options and presents them in smaller sets at a time. It is mostly "
-"aimed at users not very experienced with this plugin or the 'expert' level "
-"features of enigma2./n/nYou can check out the 'classic' editor by opening an "
-"existing timer from the overview and if you prefer this view over the wizard "
-"you can change the default editor in the setup dialog."
+"This is mostly a matter of taste./nThe Wizard provides you with a reduced set of options and presents them in smaller sets at a time. It is mostly aimed at users not very experienced with this "
+"plugin or the 'expert' level features of enigma2./n/nYou can check out the 'classic' editor by opening an existing timer from the overview and if you prefer this view over the wizard you can change "
+"the default editor in the setup dialog."
 msgstr ""
-"这是一个品味问题./该向导为您提供了一个简化的设置选项,并介绍了他们在一次小集."
-"它主要是针对不太熟悉这个插件或“专家”级功能的Enigma2用户./n/n你可以通过打开一"
-"个现有的计时器来检查“经典”编辑器,如果你更喜欢这个视图,你可以在设置对话框中更"
-"改默认编辑器."
+"这主要是一个品味问题./n向导为您提供了一组精简的选项,并一次以较小的集合显示这些选项,它主要针对那些对该插件或Enigm2的“专家”级功能不太熟悉的用户./n/n您可以通过从“概述”中打开现有计时器来查看“经典”编辑器,"
+"如果您更喜欢此视图而不是向导,则可以在“设置”对话框中更改默认编辑器."
 
-msgid ""
-"This is the delay in minutes that the AutoTimer will wait after a search to "
-"search the EPG again."
-msgstr "这是在几分钟的时间,自动计时器将等待搜索又搜索EPG在延迟."
+#: ../src/AutoTimerSettings.py:40 ../src/AutoTimerSettings.py:32
+msgid "This is the delay in hours that the AutoTimer will wait after a search to search the EPG again."
+msgstr "这是自动定时器在搜索后等待再次搜索EPG的小时数延迟."
 
+#: ../src/AutoTimerSettings.py:64 ../src/AutoTimerSettings.py:36
+msgid "This is the delay in minutes that the AutoTimer will wait after a search to search the EPG again."
+msgstr "这是自动定时器在搜索后等待再次搜索EPG的延迟(以分钟为单位)."
+
+#: ../src/AutoTimerSettings.py:61 ../src/AutoTimerSettings.py:43
+msgid "This is the delay in minutes that the AutoTimer will wait on initial launch to not delay enigma2 startup time."
+msgstr "这是自动定时器在初始发射时等待的延迟,以分钟为单位,以不延迟E2的启动时间."
+
+#: ../src/AutoTimerEditor.py:502 ../src/AutoTimerEditor.py:541
+msgid "This is what will be looked for in event titles. Note that looking for e.g. german umlauts can be tricky as you have to know the encoding the channel uses."
+msgstr "这是将要寻找的活动标题.请注意,寻找德语变音调可能很棘手,因为你必须知道频道使用的编码."
+
+#: ../src/mphelp.xml:12
 msgid ""
-"This is what will be looked for in event titles. Note that looking for e.g. "
-"german umlauts can be tricky as you have to know the encoding the channel "
-"uses."
+"This screen should be pretty straight-forward. If the option name does not give its meaning away there should be an explanation for each of them when you select them. If there is no visible "
+"explanation this is most likely a skin issue and please try if the default skin fixes the issue./n/nA lot of effort has been put in making the parameters as easy to understand as possible, so give "
+"reading them a try ;-)."
 msgstr ""
-"这是什么将在事件标题中寻找.注意寻找德语变音可能会非常棘手,你需要知道的信道编"
-"码采用."
+"该屏幕应该很简单.如果选项名称没有给出其含义,则在选择它们时,应对它们进行解释.如果没有明显的解释,则很可能是皮肤问题,请尝试使用默认皮肤解决该问题./n/n为了使参数尽可能易于理解,我们付出了很多努力,因此请阅"
+"读以下内容. 尝试;-)."
 
-msgid ""
-"This screen should be pretty straight-forward. If the option name does not "
-"give its meaning away there should be an explanation for each of them when "
-"you select them. If there is no visible explanation this is most likely a "
-"skin issue and please try if the default skin fixes the issue./n/nA lot of "
-"effort has been put in making the parameters as easy to understand as "
-"possible, so give reading them a try ;-)."
-msgstr ""
-"这一幕应该是很漂亮的.如果选项名称没有给出它的意思,当您选择时,应该有一个解释."
-"如果没有任何明显的解释,这很可能是一个皮肤问题,请尝试,如果默认的皮肤修复的问"
-"题./或大量的努力已经把参数尽可能容易理解,所以给读他们一试；-）."
-
+#: ../src/AutoTimerSettings.py:43 ../src/AutoTimerSettings.py:70 ../src/AutoTimerSettings.py:53
 msgid "This setting controls the behavior when a timer matches a found event."
-msgstr "此设置控制计时器匹配某个事件时的行为."
+msgstr "当定时器与找到的事件匹配时,此设置控制行为."
 
-msgid ""
-"This toggles the behavior on timer conflicts. If an AutoTimer matches an "
-"event that conflicts with an existing timer it will not ignore this event "
-"but add it disabled."
-msgstr ""
-"这将触发定时器冲突的行为.如果一个自动计时器比赛事件与现有定时器不会忽视这一事"
-"件,但它添加禁用冲突."
+#: ../src/AutoTimerSettings.py:46 ../src/AutoTimerSettings.py:73 ../src/AutoTimerSettings.py:56
+msgid "This toggles the behavior on timer conflicts. If an AutoTimer matches an event that conflicts with an existing timer it will not ignore this event but add it disabled."
+msgstr "这可以在定时器冲突时切换行为. 如果自动定时器与与现有定时器发生冲突的事件相匹配,它将不会忽略该事件,而是将其禁用."
 
+#: ../src/AutoTimerList.py:195
+msgid "Thur"
+msgstr "周四"
+
+#: ../src/AutoTimerEditor.py:47 ../src/AutoTimerEditor.py:48
 msgid "Thursday"
 msgstr "星期四"
 
+#: ../src/AutoTimerEditor.py:517 ../src/AutoTimerEditor.py:556
 msgid "Time in minutes to append to recording."
-msgstr "时间在几分钟内附加到记录."
+msgstr "以分钟为单位的时间,以追加到录制."
 
+#: ../src/AutoTimerEditor.py:516 ../src/AutoTimerEditor.py:555
 msgid "Time in minutes to prepend to recording."
-msgstr "时间在分钟前记录."
+msgstr "以分钟为单位的时间可以开始录制."
 
+#: ../src/AutoTimerEditor.py:548 ../src/AutoTimerImporter.py:191 ../src/AutoTimerWizard.py:113 ../src/AutoTimerEditor.py:592 ../src/AutoTimerImporter.py:207
 msgid "Timer type"
-msgstr "计时器类型"
+msgstr "定时器类型"
 
+#: ../src/AutoTimerEditor.py:326 ../src/AutoTimerEditor.py:321
 msgid "Title"
 msgstr "标题"
 
+#: ../src/AutoTimerEditor.py:327 ../src/AutoTimerEditor.py:322
 msgid "Title and Short description"
 msgstr "标题和简短描述"
 
+#: ../src/AutoTimerEditor.py:328 ../src/AutoTimerEditor.py:323
 msgid "Title and all descriptions"
-msgstr "标题和所有的描述"
+msgstr "标题和所有描述"
 
+#: ../src/AutoTimerList.py:193
+msgid "Tue"
+msgstr "周二"
+
+#: ../src/AutoTimerEditor.py:45 ../src/AutoTimerEditor.py:46
 msgid "Tuesday"
 msgstr "星期二"
 
-msgid ""
-"Unless this is enabled AutoTimer will NOT automatically look for events "
-"matching your AutoTimers but only when you leave the GUI with the green "
-"button."
-msgstr ""
-"除非这是启用自动计时器会自动寻找匹配你的自动计时器事件,但只有当你离开桂与绿色"
-"按钮."
+#: ../src/AutoTimerSettings.py:39 ../src/AutoTimerSettings.py:57
+msgid "Unless this is enabled AutoTimer will NOT automatically look for events matching your AutoTimers but only when you leave the GUI with the green button."
+msgstr "除非启用此功能,自动定时器不会自动查找与自动定时器匹配的事件,仅在按下绿色键离开图形用户界面之后."
 
+#: ../src/AutoTimerEditor.py:523 ../src/AutoTimerEditor.py:562
 msgid "Upper bound of timespan."
-msgstr "上界的时间跨度."
+msgstr "时间跨度的上限."
 
-msgid ""
-"Upper bound of timespan. Nothing after this time will be matched. Offsets "
-"are not taken into account!"
-msgstr "上界的时间跨度.这段时间之后没有什么可以匹配.不考虑偏移量！"
+#: ../src/AutoTimerEditor.py:511 ../src/AutoTimerEditor.py:550
+msgid "Upper bound of timespan. Nothing after this time will be matched. Offsets are not taken into account!"
+msgstr "时间跨度的上. 此后没有任何匹配的内容. 不考虑偏移."
 
+#: ../src/AutoTimerEditor.py:615 ../src/AutoTimerEditor.py:659
 msgid "Use a custom location"
 msgstr "使用自定义位置"
 
+#: ../src/AutoTimerEditor.py:597
 msgid "Use automatic selection of alternates."
-msgstr "使用时自动选择."
+msgstr "使用自动交替选择。"
 
+#: ../src/AutoTimerEditor.py:681
 msgid "Use other filters"
-msgstr "使用其他滤波器"
+msgstr "其他過濾器"
 
-msgid "Version:\n"
-msgstr "版本:\n"
-
+#: ../src/AutoTimerList.py:194
 msgid "Wed"
 msgstr "周三"
 
+#: ../src/AutoTimerEditor.py:46 ../src/AutoTimerEditor.py:47
 msgid "Wednesday"
 msgstr "星期三"
 
+#: ../src/AutoTimerEditor.py:52 ../src/AutoTimerEditor.py:53 ../src/AutoTimerList.py:200
 msgid "Weekday"
 msgstr "周日"
 
+#: ../src/AutoTimerEditor.py:51 ../src/AutoTimerEditor.py:52 ../src/AutoTimerList.py:199
 msgid "Weekend"
 msgstr "周末"
 
+#: ../src/AutoTimerEditor.py:309 ../src/AutoTimerEditor.py:304
 msgid "Weekly (Monday)"
-msgstr "每周（星期一）"
+msgstr "每周（星期一)"
 
+#: ../src/AutoTimerEditor.py:309 ../src/AutoTimerEditor.py:304
 msgid "Weekly (Sunday)"
-msgstr "每周（星期日）"
+msgstr "每周（星期日)."
 
+#: ../src/mphelp.xml:2
 msgid "Welcome to the AutoTimer-Plugin"
-msgstr "欢迎来到自动计时器插件"
+msgstr "欢迎使用自动计时器插件"
 
+#: ../src/autotimerwizard.xml
 msgid ""
 "Welcome.\n"
 "\n"
-"This Wizard will help you to create a new AutoTimer by providing "
-"descriptions for common settings."
+"This Wizard will help you to create a new AutoTimer by providing descriptions for common settings."
 msgstr ""
-"欢迎光临\n"
-"\n"
-"此向导将帮助您通过提供常用设置描述创建一个新的自动计时器."
+"欢迎。\n"
+"此向导将通过提供常用设置的说明帮助您创建新的自动定时器."
 
+#: ../src/mphelp.xml:8
 msgid "What is this 'control menu' you keep talking about?"
-msgstr "你一直在说什么“控制菜单”？"
+msgstr "您一直在谈论的'控制菜单'是什么?"
 
-msgid ""
-"When supporting \"Fast Scan\" the service type is ignored. You don't need to "
-"enable this unless your Image supports \"Fast Scan\" and you are using it."
-msgstr ""
-"当支持 \"快速扫描\" 被忽略的服务类型.除非你的图像支持,你不需要启用这个\"快速"
-"扫描\" 你也在使用它."
+#: ../src/AutoTimerSettings.py:50 ../src/AutoTimerSettings.py:79 ../src/AutoTimerSettings.py:62
+msgid "When supporting \"Fast Scan\" the service type is ignored. You don't need to enable this unless your Image supports \"Fast Scan\" and you are using it."
+msgstr "当支持\"快速扫描\" 服务类型被忽略. 除非你的图片支持,否则你不需要启用此功能\"快速扫描\" 你正在使用它."
 
-msgid ""
-"When this is enabled AutoTimer will ONLY check for new events whilst in "
-"stanadby."
-msgstr "当启用自动计时器只会检查新的事件,而在stanadby."
+#: ../src/AutoTimerSettings.py:58 ../src/AutoTimerSettings.py:40
+msgid "When this is enabled AutoTimer will ONLY check for new events whilst in stanadby."
+msgstr "启动此功能后,自动定时器将仅在标准时间检查新事件."
 
-msgid ""
-"When this option is enabled the AutoTimer won't match events where another "
-"timer with the same description already exists in the timer list."
-msgstr ""
-"当启用此选项的自动计时器不匹配的事件在另一个定时器在定时器列表已经存在相同的"
-"描述."
+#: ../src/AutoTimerEditor.py:527 ../src/AutoTimerEditor.py:566
+msgid "When this option is enabled the AutoTimer won't match events where another timer with the same description already exists in the timer list."
+msgstr "当启用此选项时,如果定时器列表中已经存在另一个具有相同描述的计时器,自动计时器将不会匹配事件."
 
-msgid ""
-"With this option enabled the channel to record will be selected automaticliy "
-"using your list of alternates."
-msgstr "如果启用将自动从频道接收选择."
+#: ../src/AutoTimerEditor.py:508
+msgid "With this option enabled the channel to record on can be changed to a alternative service it is restricted to."
+msgstr "启用此选项,可以将该频道记录更改为仅限于备选频道."
 
-msgid ""
-"With this option you can restrict the AutoTimer to a certain amount of "
-"scheduled recordings. Set this to 0 to disable this functionality."
-msgstr "使用此选项可以限制自动计时器一定数量的预定记录.设置为0禁用此功能."
+#: ../src/AutoTimerEditor.py:547
+msgid "With this option enabled the channel to record will be selected automaticliy using your list of alternates."
+msgstr "启用此选项后,将使用您的候选列表自动选择要录制的频道."
 
+#: ../src/AutoTimerEditor.py:524 ../src/AutoTimerEditor.py:563
+msgid "With this option you can restrict the AutoTimer to a certain amount of scheduled recordings. Set this to 0 to disable this functionality."
+msgstr "启用此选项后,您可以限制自动定时器的计划录像数量.设为0可禁用此功能."
+
+#: ../src/plugin.py:28
 msgid "Wizard"
 msgstr "向导"
 
+#: ../src/mphelp.xml:14
 msgid "Wizard or Classic Editor?"
-msgstr "向导还是经典编辑器？"
+msgstr "向导还是经典编辑器?"
 
+#: ../src/AutoTimerSettings.py:84 ../src/AutoTimerSettings.py:67
+msgid "Write the config file after every change which the user quits by saving."
+msgstr "在用户通过保存退出的每个更改后写入配置文件."
+
+#: ../src/autotimerwizard.xml
 msgid "Yes"
 msgstr "是"
 
+#: ../src/AutoTimerOverview.py:187 ../src/AutoTimerOverview.py:203
+msgid "Yes, and delete all timers generated by this autotimer"
+msgstr "是,删除这个自动定时器产生的所有定时器"
+
+#: ../src/AutoTimerOverview.py:188 ../src/AutoTimerOverview.py:204
+msgid "Yes, but keep timers generated by this autotimer"
+msgstr "是,但保持定时器的自动计时器生成"
+
+#: ../src/autotimerwizard.xml
 msgid "Yes, keep them."
-msgstr "是的,保持。"
+msgstr "是的, 留着它们."
 
-msgid ""
-"You can control for how many days in the future timers are added. Set this "
-"to 0 to disable this feature."
-msgstr "你可以控制未来的定时器有多少天被添加.设置此为0以禁用此功能."
+#: ../src/AutoTimerSettings.py:41 ../src/AutoTimerSettings.py:67 ../src/AutoTimerSettings.py:50
+msgid "You can control for how many days in the future timers are added. Set this to 0 to disable this feature."
+msgstr "你可以控制未来添加计时器的天数,将此设置为0可禁用此功能."
 
+#: ../src/autotimerwizard.xml
 msgid ""
 "You can set the basic properties of an AutoTimer here.\n"
-"While 'Name' is just a human-readable name displayed in the Overview, 'Match "
-"in title' is what is looked for in the EPG."
+"While 'Name' is just a human-readable name displayed in the Overview, 'Match in title' is what is looked for in the EPG."
 msgstr ""
-"你可以在这里设置一个自动开关的基本性质.\n"
-"而“名”只是一个人类可读的名称显示在概述,在标题的匹配是寻找在EPG."
+"您可以在此处设置自动计时器的基本属性.\n"
+"'名称'只是概述中显示的易于理解的名称,而'标题匹配'则是EPG中要查找的内容."
 
+#: ../src/autotimerwizard.xml
 msgid ""
-"You did not provide a valid 'Match in title' Attribute for your new "
-"AutoTimer.\n"
+"You did not provide a valid 'Match in title' Attribute for your new AutoTimer.\n"
 "As this is a mandatory Attribute you cannot continue without doing so."
 msgstr ""
-"你没有为你的新的自动计时器在标题属性提供一个有效的匹配.\n"
-"因为这是一个强制性的属性,你不能继续这样做."
+"您没有为新的自动定时器提供有效的'标题匹配'属性.\n"
+"由于这是必填属性,因此不这样做无法继续."
 
+#: ../src/AutoTimerEditor.py:721 ../src/AutoTimerImporter.py:250 ../src/AutoTimerEditor.py:779 ../src/AutoTimerImporter.py:266
+#, python-format
 msgid ""
 "You entered \"%s\" as Text to match.\n"
 "Do you want to remove trailing whitespaces?"
 msgstr ""
-"你进入 \"%s\" 作为文本匹配.\n"
-"是否去掉尾部空格？"
+"您输入\"%s\"作为要匹配的文本.\n"
+"是否要删除尾部空格?"
 
+#: ../src/mphelp.xml:18
 msgid ""
-"You now know almost everything there is to know about the AutoTimer-Plugin./"
-"n/nAs a final hint I can't stress how important it is to take a look at the "
-"help texts that are shown in the setup dialogs as they cover the most "
-"frequently asked questions. Surprisingly even after the hints were added ;-)."
-msgstr ""
-"你现在知道的一切关于自动计时器插件./n/n最后一点我不能强调必须是在设置对话框显"
-"示为他们盖的最常见问题的帮助文本一看是多么的重要.令人惊讶的是,即使在暗示被添"
-"加；-）."
+"You now know almost everything there is to know about the AutoTimer-Plugin./n/nAs a final hint I can't stress how important it is to take a look at the help texts that are shown in the setup dialogs "
+"as they cover the most frequently asked questions. Surprisingly even after the hints were added ;-)."
+msgstr "现在,您几乎了解了有关自动定时器插件的所有信息./n/n最后一个提示是,我不能强调查看设置对话框中显示的帮助文本的重要性,因为它们涵盖了最常见的问题.令人惊讶的是,即使在添加提示之后；-)。"
 
+#: ../src/autotimerwizard.xml
 msgid ""
-"You successfully configured a new AutoTimer. Do you want to add it to the "
-"list?\n"
+"You successfully configured a new AutoTimer. Do you want to add it to the list?\n"
 "\n"
 "You can go back a step by pressing EXIT on your remote."
 msgstr ""
-"你成功地配置了一个新的自动计时器.你想把它添加到列表中吗？\n"
+"已成功配置了新的自动定时器.是否把它添加到列表?\n"
 "\n"
-"你可以按你的遥控器上的一步一步走."
+"按遥控器上的EXIT键可以返回上一步."
 
+#: ../src/autotimerwizard.xml
 msgid ""
 "Your 'Match in title' Attribute ends with a Whitespace.\n"
 "Please confirm if this was intentional, if not they will be removed."
 msgstr ""
-"你的“标题”属性匹配结尾空白.\n"
-"请确认这是否是有意的,如果不是他们将被删除."
+"您的'标题匹配'属性以空格结尾.\n"
+"请确认这是否是故意的,如果不是,他们将被删除."
 
+#: ../src/plugin.py:146 ../src/plugin.py:115
+#, python-format
 msgid ""
 "Your config file is not well-formed:\n"
 "%s"
 msgstr ""
-"配置文件格式不完善：\n"
+"您的配置文件的格式不正确:\n"
 "%s"
 
+#. TRANSLATORS: AutoTimer title in MovieList (automatically opens importer, I consider this no further interaction)
+#: ../src/plugin.py:233 ../src/plugin.py:190
 msgid "add AutoTimer"
 msgstr "添加自动计时器"
 
+#. TRANSLATORS: AutoTimer title in EventInfo dialog (requires the user to select an event to base the AutoTimer on)
+#: ../src/plugin.py:235 ../src/plugin.py:192
 msgid "add AutoTimer..."
-msgstr "添加自动计时器…"
+msgstr "添加自动计时器..."
 
+#: ../src/AutoTimerEditor.py:469
+msgid "add filters"
+msgstr "添加筛选器"
+
+#: ../src/AutoTimerEditor.py:475
+msgid "add services"
+msgstr "添加服务"
+
+#: ../src/AutoTimerEditor.py:265 ../src/AutoTimerImporter.py:30 ../src/AutoTimerEditor.py:260
 msgid "auto"
 msgstr "自动"
 
+#: ../src/AutoTimerResource.py:166 ../src/AutoTimerResource.py:187 ../src/AutoTimerResource.py:189
 msgid "autotimers need a match attribute"
-msgstr "自动计时器需要一个匹配属性"
+msgstr "自动时间需要匹配属性"
 
+#: ../src/AutoTimerEditor.py:188 ../src/AutoTimerEditor.py:183
 msgid "case-insensitive search"
-msgstr "不区分大小写"
+msgstr "搜索(不区分大小写)"
 
+#: ../src/AutoTimerEditor.py:188 ../src/AutoTimerEditor.py:183
 msgid "case-sensitive search"
-msgstr "区分大小写的搜索"
+msgstr "搜索(区分大小写)"
 
+#: ../src/AutoTimerResource.py:409 ../src/AutoTimerResource.py:460 ../src/AutoTimerResource.py:458
 msgid "config changed."
-msgstr "配置改变."
+msgstr "配置已更改."
 
+#: ../src/AutoTimerEditor.py:894 ../src/AutoTimerEditor.py:1097
+msgid "delete"
+msgstr "删除"
+
+#: ../src/AutoTimerEditor.py:187 ../src/AutoTimerEditor.py:182
 msgid "description match"
 msgstr "描述匹配"
 
+#: ../src/AutoTimerImporter.py:130 ../src/AutoTimerImporter.py:146
 msgid "disable"
 msgstr "禁用"
 
+#: ../src/AutoTimerEditor.py:494 ../src/AutoTimerEditor.py:498 ../src/AutoTimerEditor.py:509 ../src/AutoTimerEditor.py:513
 msgid "disabled"
-msgstr "禁用"
+msgstr "已禁用"
 
+#: ../src/AutoTimerEditor.py:262 ../src/AutoTimerImporter.py:27 ../src/AutoTimerEditor.py:257
 msgid "do nothing"
-msgstr "什么也不做"
+msgstr "不执行任何操作"
 
+#: ../src/AutoTimerEditor.py:467
+msgid "edit filters"
+msgstr "编辑过滤器"
+
+#: ../src/AutoTimerEditor.py:473
+msgid "edit services"
+msgstr "编辑频道"
+
+#: ../src/AutoTimerImporter.py:130 ../src/AutoTimerImporter.py:146
 msgid "enable"
 msgstr "启用"
 
+#: ../src/AutoTimerEditor.py:492 ../src/AutoTimerEditor.py:496 ../src/AutoTimerEditor.py:507 ../src/AutoTimerEditor.py:511
 msgid "enabled"
 msgstr "启用"
 
+#: ../src/AutoTimerEditor.py:187 ../src/AutoTimerEditor.py:182
 msgid "exact match"
 msgstr "精确匹配"
 
+#: ../src/AutoTimerEditor.py:264 ../src/AutoTimerImporter.py:28 ../src/AutoTimerEditor.py:259
 msgid "go to deep standby"
-msgstr "深度待机"
+msgstr "进入深度待机"
 
+#: ../src/AutoTimerEditor.py:263 ../src/AutoTimerImporter.py:29 ../src/AutoTimerEditor.py:258
 msgid "go to standby"
-msgstr "进入待机状态"
+msgstr "进入待机"
 
+#: ../src/AutoTimerEditor.py:877 ../src/AutoTimerEditor.py:1070
 msgid "in Description"
-msgstr "描述"
+msgstr "详情描述"
 
+#: ../src/AutoTimerEditor.py:876 ../src/AutoTimerEditor.py:1069
 msgid "in Shortdescription"
-msgstr "简短描述"
+msgstr "在简短描述中"
 
+#: ../src/AutoTimerEditor.py:875 ../src/AutoTimerEditor.py:1068
 msgid "in Title"
 msgstr "标题"
 
+#: ../src/AutoTimerPreview.py:52 ../src/AutoTimerPreview.py:77
 msgid "mins"
 msgstr "分钟"
 
+#: ../src/AutoTimerResource.py:134 ../src/AutoTimerResource.py:156 ../src/AutoTimerResource.py:158
 msgid "missing parameter \"id\""
-msgstr "缺少参数 \"ID\""
+msgstr "遗漏参数 \"id\""
 
+#: ../src/AutoTimerEditor.py:878 ../src/AutoTimerEditor.py:1071
 msgid "on Weekday"
-msgstr "周日"
+msgstr "在工作日"
 
+#: ../src/AutoTimerEditor.py:187 ../src/AutoTimerEditor.py:182
 msgid "partial match"
 msgstr "部分匹配"
 
+#: ../src/AutoTimerEditor.py:194 ../src/AutoTimerImporter.py:191 ../src/AutoTimerEditor.py:189 ../src/AutoTimerImporter.py:207
 msgid "record"
-msgstr "记录"
+msgstr "录像"
 
+#: ../src/AutoTimerEditor.py:262 ../src/AutoTimerEditor.py:257
 msgid "standard"
 msgstr "标准"
 
-msgid "unable to find timer with id %i"
-msgstr "无法找到带标识的计时器%i"
+#: ../src/AutoTimerEditor.py:182
+msgid "title starts with"
+msgstr "标题以"
 
+#: ../src/AutoTimerResource.py:160 ../src/AutoTimerResource.py:181 ../src/AutoTimerResource.py:183
+#, python-format
+msgid "unable to find timer with id %i"
+msgstr "找不到id为%i的定时器"
+
+#: ../src/AutoTimerEditor.py:355 ../src/AutoTimerEditor.py:356 ../src/AutoTimerEditor.py:357 ../src/AutoTimerEditor.py:358
+msgid "unknown"
+msgstr "未知"
+
+#: ../src/AutoTimerEditor.py:194 ../src/AutoTimerImporter.py:191 ../src/AutoTimerEditor.py:189 ../src/AutoTimerImporter.py:207
 msgid "zap"
 msgstr "切换"
+
+#: ../src/AutoTimerEditor.py:189
+msgid "zap and record"
+msgstr "切换并录像"
+
+#: ../src/AutoTimerSettings.py:146
+msgid " - Version: "
+msgstr " -版本:"
+
